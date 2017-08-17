@@ -30,8 +30,4 @@ try {
     echo "Payment Failed".PHP_EOL;
 }
 
-//$context->trigger("special_date");
-//$context->trigger("approved");
-//$context->trigger("paid");
-
-echo $context->getEntity()->getState();
+echo $context->getEntity()->getState(); // echos 'booked'

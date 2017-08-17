@@ -12,7 +12,7 @@ namespace tcc;
 class Event implements StatefulEntity {
 
     public $state = "created";
-    public $host = "Chris";
+    public $host = "Joe Bob";
 
     /**
      * @return string state_id
